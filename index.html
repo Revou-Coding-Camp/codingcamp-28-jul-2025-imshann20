@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Website</title>
+
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo"></div>
+    
+
+    <nav class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#our-profile">Our Profile</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#message-us">Message Us</a>
+    </nav>
+  </header>
+
+  <hr />
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h1>Welcome <span id="welcome-speech"></span> to Our Website</h1>
+    <p>Discover timeless fashion crafted with passion. Where style meets soul, your journey to elegance starts here.</p>
+    <div class="banner-img"></div>
+  </section>
+
+  <hr />
+
+  <!-- Our Profile Section -->
+  <section id="our-profile" class="section">
+    <h1 class="text-[24px] font-bold">Our Profile – ShanShine Wardrobe</h1>
+    <h3 class="text-[24px] font-bold">About Us</h3>
+    <p><b>ShanShine Wardrobe</b> was born out of a deep love for fashion that feels elegant, effortless, and meaningful. We believe clothing is more than just what you wear—it’s how you express yourself, how you carry your story, and how you show up with confidence.</p>
+    <h3 class="text-[24px] font-bold">Vision</h3>
+    <p>To become a fashion brand known for timeless design, lasting quality, and values that inspire.</p>
+    <h3 class="text-[24px] font-bold">Mission</h3>
+    <ul>
+      <li>To craft high-quality fashion pieces that elevate everyday style</li>
+      <li>To support responsible and sustainable production</li>
+      <li>To prioritize quality materials and comfort in every product</li>
+    </ul>
+  </section>
+
+  <hr />
+
+  <!-- Portfolio Section -->
+ <section id="portfolio" class="section">
+  <h2>Our Portfolio</h2>
+  <p>Here are some of our featured collections and creative works at Shanshine Wardrobe.</p>
+
+  <div class="portfolio-gallery">
+    <!-- Item 1 -->
+    <div class="portfolio-item">
+      <img src="./pic/Spring_Summer 2025 Fashion Guide -.jpg" height=400px width="200px" alt="Summer Collection 2025">
+      <h3>Summer Collection 2025</h3>
+      <p>A colorful and comfy collection perfect for sunny days.</p>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="portfolio-item">
+      <img src="./pic/jfw.jpg" height="400px" width="230px"alt="Fashion Week Debut"/>
+      <h3>Jakarta Fashion Week Debut</h3>
+      <p>Our pieces on the runway for the first time. A proud moment!</p>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="portfolio-item">
+      <img src="./pic/download.jpg" height="400px" alt="Custom Clothing">
+      <h3>Custom Clothing Orders</h3>
+      <p>We bring your vision to life with our tailor made service.</p>
+    </div>
+  </div>
+</section>
+
+  <hr />
+
+  <!-- Message Us Section -->
+  <section id="message-us" class="section">
+    <h2>Message Us</h2>
+    <p>Feel free to reach out with any questions or inquiries.</p>
+
+    <div class="form-container">
+      <form id="messageForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="birthdate">Birthdate:</label><br>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Laki-laki" required> Laki-laki
+        <input type="radio" name="gender" value="Perempuan" required> Perempuan<br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <aside id="output">
+        <!-- Hasil dari inputan akan muncul di sini -->
+      </aside>
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Shanny Su. All rights reserved.</p>
+  </footer>
+
+  <!-- Javascript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
